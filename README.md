@@ -23,7 +23,7 @@ This repo is the open-sourced code for our TimeSGN
 - MAG
 
 ## Run
-'''
+```{pytphon}
 # python train.py 
-'''
+```
 
