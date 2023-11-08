@@ -3,26 +3,27 @@
 This repo is the open-sourced code for our TimeSGN 
 
 ## Requirements
-```bash
-# python >= 3.6.13
-# pytorch >= 1.8.1
-# pandas >= 1.1.5
-# numpy >= 1.19.5
-# dgl >= 0.6.1
-# pyyaml >= 5.4.1
-# tqdm >= 4.61.0
-# pybind11 >= 2.6.2
-# g++ >= 7.5.0
+
+- python >= 3.6.13
+- pytorch >= 1.8.1
+- pandas >= 1.1.5
+- numpy >= 1.19.5
+- dgl >= 0.6.1
+- pyyaml >= 5.4.1
+- tqdm >= 4.61.0
+- pybind11 >= 2.6.2
+- g++ >= 7.5.0
 
 ## Datasets
-```bash
-# Wikipedia
-# Reddit
-# MOOC
-# LastFM
-# GDELT
-# MAG
+- Wikipedia
+- Reddit
+- MOOC
+- LastFM
+- GDELT
+- MAG
 
-```bash
+## Run
+'''
 # python train.py 
+'''
 
