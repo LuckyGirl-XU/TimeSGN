@@ -6,7 +6,7 @@ sampling:
     prop_time: False
     history: 1
     duration: 0
-    num_thread: 64
+    num_thread: 32
 memory: 
   - type: 'node'
     dim_time: 100
@@ -24,8 +24,8 @@ gnn:
     dim_out: 100
 train:
   - epoch: 5
-    batch_size: 4000 # local batch_size
+    batch_size: 600
     lr: 0.0001
     dropout: 0.2
     att_dropout: 0.2
-    reorder: 8
+    all_on_gpu: True
