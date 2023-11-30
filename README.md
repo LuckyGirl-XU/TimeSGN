@@ -20,7 +20,7 @@ This repo is the open-sourced code for our TimeSGN
 - MOOC: http://snap.stanford.edu/jodie/mooc.csv
 - LastFM: http://snap.stanford.edu/jodie/lastfm.csv
 - GDELT_ST: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv
-- GDELT: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv, edge_features.pt
+- GDELT: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv,edge_features.pt
 - MAG: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv
 
 ## Preprocessing
