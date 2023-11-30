@@ -15,12 +15,12 @@ This repo is the open-sourced code for our TimeSGN
 - g++ >= 7.5.0
 
 ## Datasets
-- Wikipedia
-- Reddit
-- MOOC
-- LastFM
-- GDELT
-- MAG
+- Wikipedia: http://snap.stanford.edu/jodie/wikipedia.csv
+- Reddit: http://snap.stanford.edu/jodie/reddit.csv
+- MOOC: http://snap.stanford.edu/jodie/mooc.csv
+- LastFM: http://snap.stanford.edu/jodie/lastfm.csv
+- GDELT: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv;edge_features.pt
+- MAG: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv
 
 ## Run
 ```{pytphon}
