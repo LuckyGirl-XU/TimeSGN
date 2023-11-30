@@ -24,9 +24,10 @@ This repo is the open-sourced code for our TimeSGN
 - MAG: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv
 
 # Preprocessing
-
+  ```
   python utils/setup.py build_ext --inplace
   python utils/gen_graph.py --data WIKI
+  ```
 
 
 # Run
