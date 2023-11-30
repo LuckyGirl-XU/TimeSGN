@@ -19,20 +19,24 @@ This repo is the open-sourced code for our TimeSGN
 - Reddit: http://snap.stanford.edu/jodie/reddit.csv
 - MOOC: http://snap.stanford.edu/jodie/mooc.csv
 - LastFM: http://snap.stanford.edu/jodie/lastfm.csv
-- GDELT: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv;edge_features.pt
+- GDELT_ST: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv
+- GDELT: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv, edge_features.pt
 - MAG: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv
 
 ## Preprocessing
+```
+  python utils/setup.py build_ext --inplace
   python utils/gen_graph.py --data WIKI
+```
 
 ## Run
 ```{pytphon}
-#Single GPU training
-  ## For Transductive link prediction
+# Single GPU training
+  ## For transductive link prediction
       python train.py --data WIKI --config ./config/TimeSGN.yml --gpu 0 --DTMP
   ## For inductive link Ranking
       python train.py --data WIKI --config ./config/TimeSGN.yml --gpu 0 --eval_can_samples 100 --DTMP --use_inductive
-#Multi-GPU training
+# Multi-GPU training for billion-scale datasets
   ## For transductive link prediction
       python -m torch.distributed.launch --nproc_per_node=9 train_dist.py --data GDELT --config ./config/dist/TimeSGN.yml --num_gpus 8 
 ```
