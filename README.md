@@ -25,10 +25,13 @@ The datasets are used in this paper:
 - MAG: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv
 
 # Preprocessing
-  ```
-  python utils/setup.py build_ext --inplace
+  ## Temporal sampler initialization
+
+    python utils/setup.py build_ext --inplace
+
+  ## Data preprocessing
+  
   python utils/gen_graph.py --data WIKI
-  ```
 
 
 # Run
