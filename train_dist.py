@@ -32,7 +32,7 @@ import numpy as np
 from tqdm import tqdm
 from dgl.utils.shared_mem import create_shared_mem_array, get_shared_mem_array
 from sklearn.metrics import average_precision_score, roc_auc_score
-from modules.modules import *
+from modules.module import *
 from utils.sampler import *
 from utils.utils import *
 from utils.MyLogging import Logger
