@@ -15,6 +15,7 @@ This repo is the open-sourced code for our TimeSGN
 - g++ >= 7.5.0
 
 # Datasets
+The datasets are used in this paper:
 - Wikipedia: http://snap.stanford.edu/jodie/wikipedia.csv
 - Reddit: http://snap.stanford.edu/jodie/reddit.csv
 - MOOC: http://snap.stanford.edu/jodie/mooc.csv
