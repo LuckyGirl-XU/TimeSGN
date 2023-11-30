@@ -31,7 +31,7 @@ The datasets are used in this paper:
 
   ## Data preprocessing
   
-  python utils/gen_graph.py --data WIKI
+    python utils/gen_graph.py --data WIKI
 
 
 # Run
