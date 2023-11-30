@@ -30,14 +30,17 @@ This repo is the open-sourced code for our TimeSGN
 ```
 
 ## Run
-```{pytphon}
-# Single GPU training
-  ## For transductive link prediction
-      python train.py --data WIKI --config ./config/TimeSGN.yml --gpu 0 --DTMP
-  ## For inductive link Ranking
-      python train.py --data WIKI --config ./config/TimeSGN.yml --gpu 0 --eval_can_samples 100 --DTMP --use_inductive
-# Multi-GPU training for billion-scale datasets
-  ## For transductive link prediction
-      python -m torch.distributed.launch --nproc_per_node=9 train_dist.py --data GDELT --config ./config/dist/TimeSGN.yml --num_gpus 8 
-```
+  # Single GPU training: Link prediction task and Link ranking task
+  
+    ```{pytphon}
+      ## For transductive link prediction
+          python train.py --data WIKI --config ./config/TimeSGN.yml --gpu 0 --DTMP
+      ## For inductive link Ranking
+          python train.py --data WIKI --config ./config/TimeSGN.yml --gpu 0 --eval_can_samples 100 --DTMP --use_inductive 
+    ```
+  # Multi-GPU training for billion-scale datasets
+      ```{pytphon}
+      ## For transductive link prediction
+          python -m torch.distributed.launch --nproc_per_node=9 train_dist.py --data GDELT --config ./config/dist/TimeSGN.yml --num_gpus 8 
+      ```
 
