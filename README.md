@@ -24,6 +24,7 @@ This repo is the open-sourced code for our TimeSGN
 
 ## Run
 ```{pytphon}
-# python train.py 
+- For Transductive Link prediction
+# python train.py --data WIKI --config ./config/TimeSGN.yml --gpu 0 --DTMP
 ```
 
