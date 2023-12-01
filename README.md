@@ -23,6 +23,7 @@ The datasets are used in this paper:
 - [GDELT_ST](https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv)
 - [GDELT](https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv,https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edge_features.pt)
 - [MAG](https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv)
+- [Protein Dynamic Interaction Network](https://github.com/DongqiFu/DPPIN/tree/main/DPPIN-Babu)
 
 # Preprocessing
   ## Temporal sampler initialization
