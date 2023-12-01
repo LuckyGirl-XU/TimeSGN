@@ -16,13 +16,13 @@ This repo is the open-sourced code for our TimeSGN
 
 # Datasets
 The datasets are used in this paper:
-- Wikipedia: http://snap.stanford.edu/jodie/wikipedia.csv
-- Reddit: http://snap.stanford.edu/jodie/reddit.csv
-- MOOC: http://snap.stanford.edu/jodie/mooc.csv
-- LastFM: http://snap.stanford.edu/jodie/lastfm.csv
-- GDELT_ST: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv
-- GDELT: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv,edge_features.pt
-- MAG: https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv
+- [Wikipedia]( http://snap.stanford.edu/jodie/wikipedia.csv)
+- [Reddit](http://snap.stanford.edu/jodie/reddit.csv)
+- [MOOC](http://snap.stanford.edu/jodie/mooc.csv)
+- [LastFM](http://snap.stanford.edu/jodie/lastfm.csv)
+- [GDELT_ST](https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv)
+- [GDELT](https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edges.csv,https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/GDELT/edge_features.pt)
+- [MAG](https://s3.us-west-2.amazonaws.com/dgl-data/dataset/tgl/MAG/edges.csv)
 
 # Preprocessing
   ## Temporal sampler initialization
@@ -37,7 +37,7 @@ The datasets are used in this paper:
 
 
 
-# Run
+# Run Examples
   ## Single GPU training: Link prediction task and Link ranking task
   
   
