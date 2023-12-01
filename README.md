@@ -33,6 +33,8 @@ The datasets are used in this paper:
   
     python utils/gen_graph.py --data WIKI
 
+    - We provide preprocessed data samples, which can be downloaded [here](https://drive.google.com/drive/folders/1Nr9bL6rEkioR9gzftEPP3fk4J7pLodLs?usp=sharing)
+
 
 # Run
   ## Single GPU training: Link prediction task and Link ranking task
