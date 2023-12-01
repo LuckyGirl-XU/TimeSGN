@@ -31,8 +31,9 @@ The datasets are used in this paper:
 
   ## Data preprocessing
   - We provide preprocessed data samples, which can be downloaded [here](https://drive.google.com/drive/folders/1Nr9bL6rEkioR9gzftEPP3fk4J7pLodLs?usp=sharing)
-  
+```
     python utils/gen_graph.py --data WIKI
+```
 
 
 
