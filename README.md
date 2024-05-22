@@ -1,6 +1,6 @@
 # TimeSGN
 
-This repo is the open-sourced code for our TimeSGN 
+This repo is the open-sourced code for our TimeSGN: Scalable and Effective Temporal Graph Neural Network, published at IEEE International Conference on Data Engineering (ICDE), 2024.
 
 # Requirements
 
