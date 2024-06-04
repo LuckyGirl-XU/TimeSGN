@@ -62,6 +62,6 @@ The data set download address, except for the GDELT_ST, is provided in the paper
 
 # Reference
 
-If you find this work is helpful to your research, please consider citing our paper.
+If you think this work is helpful to your research, please feel free to cite our paper.
 
 
