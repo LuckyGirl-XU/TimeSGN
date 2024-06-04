@@ -54,4 +54,14 @@ The datasets are used in this paper:
       - For transductive link prediction
           python -m torch.distributed.launch --nproc_per_node=9 train_dist.py --data GDELT --config ./config/dist/TimeSGN.yml --num_gpus 8 
       
+# Acknowledgement
+
+Our source code and data processing are built heavily based on the code of the TGL Framework (https://github.com/amazon-science/tgl).
+
+The data set download address, except for the GDELT_ST, is provided in the paper.
+
+# Reference
+
+If you find this work is helpful to your research, please consider citing our paper.
+
 
