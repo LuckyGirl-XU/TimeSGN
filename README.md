@@ -56,7 +56,7 @@ The datasets are used in this paper:
       
 # Acknowledgement
 
-Our source code and data processing are built heavily based on the code of the TGL Framework (https://github.com/amazon-science/tgl).
+Our source code and data processing are built heavily based on the code of the TGL Framework at [URL](https://github.com/amazon-science/tgl).
 
 The data set download address, except for the GDELT_ST, is provided in the paper.
 
